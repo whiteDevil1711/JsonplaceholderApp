@@ -29,15 +29,16 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent">
+
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/editEmail"
                 style="@style/textView12SspDarkBlueRegular"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:background="@android:color/transparent"
                 android:hint="@string/email"
                 android:inputType="textEmailAddress"
-                android:background="@android:color/transparent"
-                />
+                android:singleLine="true" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -49,15 +50,17 @@
             app:layout_constraintTop_toBottomOf="@id/txtInputLayoutEmail"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent">
+
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/editPassword"
+                style="@style/textView12SspDarkBlueRegular"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                style="@style/textView12SspDarkBlueRegular"
+                android:background="@android:color/transparent"
                 android:hint="@string/Password"
                 android:inputType="textPassword"
-                android:background="@android:color/transparent"
-                />
+                android:maxLength="20"
+                android:singleLine="true" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.button.MaterialButton

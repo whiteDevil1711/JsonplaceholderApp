@@ -26,8 +26,8 @@ class LoginActivity : AppCompatActivity(), View.OnClickListener {
 
     private fun initView() {
         toolbar.setTitle(R.string.login)
-        editEmail.setText(getString(R.string.dummyEmail))
-        editPassword.setText(getString(R.string.dummyPassword))
+       /* editEmail.setText(getString(R.string.dummyEmail))
+        editPassword.setText(getString(R.string.dummyPassword))*/
     }
 
     private fun initListener() {
