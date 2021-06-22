@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/toolbar"
+    android:layout_width="match_parent"
+    android:background="@color/dark_blue_color"
+    android:layout_height="?attr/actionBarSize">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/glCenter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.50" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/img_toolbar_down_arrow"
+        style="@style/textView12SspWhiteSemiBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_10sdp"
+        tools:text="@string/app_name"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/glCenter"
+        app:layout_constraintEnd_toStartOf="@id/glCenter"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/txt_toolbar_title"
+        style="@style/textView12SspWhiteSemiBold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/glCenter"
+        app:layout_constraintStart_toEndOf="@id/glCenter"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btnRight"
+        android:layout_width="?attr/actionBarSize"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/selectableItemBackground"
+        android:scaleType="fitCenter"
+        android:visibility="gone"
+        android:src="@drawable/ic_logout"
+        android:padding="@dimen/_10sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

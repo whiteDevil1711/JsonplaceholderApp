@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">KuldeepPracticalTask</string>
+
+    <!--Login Screen String-->
+    <string name="email">Email</string>
+    <string name="Password">Password</string>
+    <string name="dummyEmail">hello@yopmail.com</string>
+    <string name="dummyPassword">Password@123</string>
+    <string name="please_enter_a_password">Please Enter a Password</string>
+    <string name="please_enter_an_email">Please Enter an Email</string>
+    <string name="please_enter_a_valid_email">Please Enter a Valid Email</string>
+    <string name="please_enter_a_valid_dummy_email">Please Enter a Validate Dummy Email</string>
+    <string name="please_enter_a_valid_dummy_password">Please Enter a Validate Dummy Password</string>
+    <string name="please_enter_a_valid_password">Please Enter a Valid password</string>
+    <string name="text_pwd_format_incorrect" translatable="false">Password must be minimum 8 characters, with at least one uppercase character, one lowercase character, one special character and one numeric character</string>
+    <string name="login">Login</string>
+
+    <!--Home Screen (MainActivity) string-->
+    <string name="home">Home</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="logout">Logout</string>
+    <string name="are_you_sure_logout">Are you sure logout?</string>
+    <string name="lbl_message_details">This action cannot be undone.</string>
+    <string name="okay">Okay</string>
+
+</resources>
